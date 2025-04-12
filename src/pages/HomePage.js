@@ -1,5 +1,6 @@
 import React from 'react';
 import './HomePage.css';
+import HPimg from '../SAKOOL/boy-new-first-page.png';
 
 const HomePage = () => {
   return (
@@ -11,8 +12,7 @@ const HomePage = () => {
           <button className="cta-button">Get Started</button>
         </div>
         <div className="hero-image">
-          {/* Replace with actual image later */}
-          <img src="https://i.imgur.com/fake-children-image.jpg" alt="Students" />
+          <img src={HPimg} alt="Students" />
         </div>
       </section>
 
